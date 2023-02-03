@@ -11,6 +11,10 @@
   /*border: red solid 1px;*/
 }
 
+.link-and-text-color {
+  color: #2f80ed;
+}
+
 .header {
   display: flex;
   position: relative;
@@ -22,10 +26,9 @@
 }
 
 .header__title {
-  border: red solid 1px;
   display: flex;
   width: 730px;
-  align-items: center;
+  align-self: center;
   margin-left: 64px;
 }
 
@@ -49,6 +52,7 @@
   line-height: 25px;
   font-weight: normal;
 }
+
 .header__link::after {
   content: ' \2192';
 }
@@ -89,4 +93,54 @@
   height: 32px;
   background-image: url('../images/logo_place_header.svg');
   z-index: 1;
+}
+
+
+.description {
+  border: #2f80ed 1px dashed;
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.two-columns__brief {
+  width: 175px;
+}
+
+.two-columns__title {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+.two_columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  min-height: 30px;
+}
+
+/*Отступы между нечетным количеством элементов в списке*/
+.two-columns__list:nth-of-type(2n) {
+  margin: 30px 0;
+}
+
+.two-columns__span-accent {
+  font-weight: 600;
 }
