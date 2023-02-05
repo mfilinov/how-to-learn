@@ -43,7 +43,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  background-image: url('../images/logo_place_header.svg');
+  background-image: url(../images/logo_place_header.svg);
 }
 
 .header__title {
@@ -188,7 +188,7 @@
   position: relative;
   height: 890px;
   background-color: #f2f2f2;
-  background-image: url('../images/feynman.png');
+  background-image: url(../images/feynman.png);
   background-position: bottom left;
   background-repeat: no-repeat;
 }
@@ -236,7 +236,7 @@
   top: 0;
   width: 877px;
   height: 877px;
-  background-image: url('../images/kaufman-triangle.svg');
+  background-image: url(../images/kaufman-triangle.svg);
   z-index: -1;
 }
 
@@ -298,7 +298,7 @@
 }
 
 .logo_place_footer {
-  background-image: url('../images/logo_place_footer.svg');
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__author {
