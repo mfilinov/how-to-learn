@@ -1,89 +1,17 @@
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+@import url(../vendor/normalize.css);
+@import url(../block/page/page.css);
+@import url(../block/rotation/rotation.css);
+@import url(../block/list/list.css);
+@import url(../block/logo/logo.css);
+@import url(../block/logo/_place/logo_place_header.css);
+@import url(../block/logo/_place/logo_place_footer.css);
 
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.header {
-  display: flex;
-  position: relative;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color: #f2f2f2;
-  z-index: 1;
-}
-
-.logo {
-  width: 228px;
-  height: 32px;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  background-image: url(../images/logo_place_header.svg);
-}
-
-.header__title {
-  width: 730px;
-  align-self: center;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: 600;
-  margin: 0 0 0 64px;
-}
-
-.header__subtitle {
-  position: absolute;
-  width: 388px;
-  left: 64px;
-  bottom: 30px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0;
-}
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-.header__link::after {
-  content: ' \2192';
-}
-
-.header__main-illustration {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 765px;
-  height: 608px;
-  z-index: -1;
-}
-
-.header__square-pic {
-  position: absolute;
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
-  top: 64px;
-  right: 0;
-  z-index: -2;
-}
+@import url(../block/header/header.css);
+@import url(../block/header/__square-pic/header__square-pic.css);
+@import url(../block/header/__title/header__title.css);
+@import url(../block/header/__subtitle/header__subtitle.css);
+@import url(../block/header/__link/header__link.css);
+@import url(../block/header/__main-illustration/header__main-illustration.css);
 
 .description {
   display: flex;
@@ -279,10 +207,6 @@
   flex-basis: 711px;
   justify-content: space-between;
   align-items: flex-start;
-}
-
-.logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__author {
