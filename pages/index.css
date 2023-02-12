@@ -13,64 +13,29 @@
 @import url(../block/header/__link/header__link.css);
 @import url(../block/header/__main-illustration/header__main-illustration.css);
 
-.description {
-  display: flex;
-  justify-content: center;
-}
+@import url(../block/section-title/section-title.css);
+@import url(../block/section-subtitle/section-subtitle.css);
 
-.two-columns {
-  display: flex;
-  width: 80%;
-  justify-content: space-between;
-  margin-top: 100px;
-}
+@import url(../block/techniques/techniques.css);
 
-.two-columns__brief {
-  margin: 0;
-  width: 175px;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 1.2;
-  color: #2f80ed;
-}
+@import url(../block/description/description.css);
 
-.two_columns__main-text {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  min-width: 784px;
-  gap: 30px;
-}
+@import url(../block/two-columns/two-columns.css);
+@import url(../block/two-columns/__brief/two-columns__brief.css);
+@import url(../block/two-columns/__main-text/two_columns__main-text.css);
+@import url(../block/two-columns/__paragraph/two-columns__paragraph.css);
 
-.two-columns__paragraph {
-  margin: 0;
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: normal;
-  min-height: 30px;
+@import url(../block/cards/cards.css);
+@import url(../block/cards/__item/cards__item.css);
+@import url(../block/cards/__image/cards__image.css);
+@import url(../block/cards/__title/cards__title.css);
+@import url(../block/cards/__description/cards__description.css);
 
-}
+
+
 
 .two-columns__span-accent {
   font-weight: 600;
-}
-
-.section-title {
-  margin: 100px auto 0;
-  width: 60%;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
-
-.section-subtitle {
-  margin: 20px auto 0;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 60%;
 }
 
 .table {
