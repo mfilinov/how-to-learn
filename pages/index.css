@@ -24,6 +24,7 @@
 @import url(../block/two-columns/__brief/two-columns__brief.css);
 @import url(../block/two-columns/__main-text/two_columns__main-text.css);
 @import url(../block/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../block/two-columns/__span-accent/two-columns__span-accent.css);
 
 @import url(../block/cards/cards.css);
 @import url(../block/cards/__item/cards__item.css);
@@ -31,12 +32,9 @@
 @import url(../block/cards/__title/cards__title.css);
 @import url(../block/cards/__description/cards__description.css);
 
+@import url(../block/video/__iframes/video__iframes.css);
 
-
-
-.two-columns__span-accent {
-  font-weight: 600;
-}
+@import url(../block/oakley/oakley.css);
 
 .table {
   display: flex;
