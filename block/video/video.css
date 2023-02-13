@@ -1,6 +1,4 @@
-.techniques {
-  width: 80%;
-  margin: 0 auto;
+.video {
   display: flex;
   justify-content: center;
   flex-direction: column;
